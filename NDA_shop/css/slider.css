@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.slider{
+    width: 1em;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.sliderimg{
+    display: flex;
+}
+.sliderimg img{
+    width: 100%;
+}
+.sliderimg input{
+    display: none;
+}
+.labelslider{
+    display: flex;
+    justify-content: center;
+}
+.labelslider label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50% ;
+    border: 1px solid blue;
+    margin: 2px;
+}
+.labelslider label:hover{
+    background: black;
+}
+#img1:checked ~ .imgslider1{
+    margin-left: 100%;
+}
